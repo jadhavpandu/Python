@@ -16,3 +16,7 @@ print("to check dict is iterable or not ::",all(dt))
 tp = (1,2,3)
 print("to check tuple is iterable or not ::",all(tp))
     
+# if iterable is empty it return True
+
+l,s,d,t=[],{},{},()
+print(all(l),all(s),all(d),all(t))
