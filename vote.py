@@ -4,3 +4,4 @@ def vote(a):
     else:
         print("he cannot vote")
 vote(2)
+1 .0   
